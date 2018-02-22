@@ -6,7 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		043B32CA203EF17600C3F657 /* wacky_math.c in Sources */ = {isa = PBXBuildFile; fileRef = 043B32C9203EF17600C3F657 /* wacky_math.c */; };
+		043B32CC203EF18A00C3F657 /* wacky.c in Sources */ = {isa = PBXBuildFile; fileRef = 043B32CB203EF18A00C3F657 /* wacky.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		043B32C7203EF0F900C3F657 /* wacky_math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = wacky_math.h; path = ../C_ProgrammingLessons/C_ProgrammingLessons/wacky_math.h; sourceTree = "<group>"; };
+		043B32C9203EF17600C3F657 /* wacky_math.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wacky_math.c; path = ../C_ProgrammingLessons/C_ProgrammingLessons/wacky_math.c; sourceTree = "<group>"; };
+		043B32CB203EF18A00C3F657 /* wacky.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wacky.c; path = ../C_ProgrammingLessons/C_ProgrammingLessons/wacky.c; sourceTree = "<group>"; };
 		046B7AF7203ECA0E00050607 /* libWacky.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWacky.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -24,6 +32,9 @@
 		046B7AEE203ECA0E00050607 = {
 			isa = PBXGroup;
 			children = (
+				043B32C7203EF0F900C3F657 /* wacky_math.h */,
+				043B32CB203EF18A00C3F657 /* wacky.c */,
+				043B32C9203EF17600C3F657 /* wacky_math.c */,
 				046B7AF8203ECA0E00050607 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +114,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043B32CA203EF17600C3F657 /* wacky_math.c in Sources */,
+				043B32CC203EF18A00C3F657 /* wacky.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +244,7 @@
 				046B7AFD203ECA0E00050607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
